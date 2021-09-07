@@ -1,12 +1,12 @@
 # Smart Contract
 
-Our new startup company has created an Ethereum-compatible blockchain to help on our finances, increase transparency and to automate accounting and auditing. We used Solidity smart contract to complete this project.
+Our new startup company has created an Ethereum-compatible blockchain to help on our finances, increase transparency and to automate accounting and auditing. We used the Solidity smart contract to complete this project.
 
 First we created an `AssociateProfitSplitter` contract. In this contract we accept Ether into the contract and divide the Ether evenly among the associate level employees. This allows the Human Resources department to pay employees quickly and efficiently.
 
 In our company's management level we created a `TieredProfitSplitter` that distributes different percentages of incoming Ether to the corporate officers at different tiers. In this contract the CEO gets paid 60%, CTO 25%, and Bob, the VP gets 15%.
 
-We used [Remix IDE](https://remix.ethereum.org), Ganache (https://www.trufflesuite.com/ganache) and MetaMask to create, compiled and deployed the contracts.
+We used [Remix IDE](https://remix.ethereum.org), Ganache (https://www.trufflesuite.com/ganache) and MetaMask to create, compile and deploy the contracts.
 
 
 ### To create `AssociateProfitSplitter` contract, we did the following: 
